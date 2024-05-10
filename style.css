@@ -1,0 +1,250 @@
+body{
+    background-color: rgb(122, 121, 121);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:100%;
+    position: absolute;
+  }
+  
+  .page-1{
+      min-height:120vh;
+      width:100%;
+      margin-top: 000px;
+      background-color:whitesmoke;
+      position:relative;
+      
+      flex-direction:column;
+      background-image: linear-gradient(to bottom right, rgb(237, 237, 240), rgb(163, 157, 163),rgb(232, 234, 236),rgb(147, 147, 151));
+  
+     
+    
+      
+  }
+  *::selection{
+      color: white;
+      background-color: black;
+  }
+  
+    
+  .page-1 h1{
+      font-size: 15.2vw;
+      font-family: futura;
+      
+      text-transform: uppercase;
+      line-height: 14vw;
+      text-align: center;
+  }
+  .nav-bar{
+      width:100%;
+      height:20vh;
+      background-color: gray;
+  }
+  .page-4{
+      min-height:40vh;
+      color:whitesmoke;
+      display: flex;
+      flex-direction: column;
+      background-color:rgb(97, 95, 95);
+      
+      padding-left: 10px;
+      letter-spacing: 1px;
+     position: relative;
+     justify-content: space-between;
+  padding-bottom: 10px;
+     font-size: 30px; 
+  }
+  @media only screen and (max-height: 600px ) {
+      .page-4{
+        height:70vh;
+        width:100%;
+      }
+    }
+  .about{
+      align-self: center;
+      padding-bottom: 40px;
+      color:black;
+      border:10px;
+      border-color: beige;
+  }
+  ul {
+      list-style-type: none;
+     
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+     
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgb(97, 95, 95);
+    }
+    #email{
+      padding-bottom: 10px;
+     margin-bottom: 10px;
+     
+     
+    }
+    label{
+      word-spacing: 10px;
+      
+    }
+    #Review{
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      
+    }
+    .formclass{
+      width:300px;
+     height:400px;
+     margin-top: 50px;
+     
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 100px;
+      text-align: center;
+      
+     border:10px;
+     border-style: solid;
+  
+      background-color: white
+     
+    }
+    .feedheading{
+      text-align: center;
+      text-shadow: 05cm;
+     
+    }
+    .feedbody{
+      background-image: linear-gradient(to bottom right, rgb(237, 237, 240), rgb(163, 157, 163),rgb(232, 234, 236),rgb(147, 147, 151));
+  
+    }
+    .page-3{
+      min-height:100vh;
+      width:100%;
+      background-color:rgb(34, 32, 32);
+      position:relative;
+      font-size: 30px;
+      
+      text-align: center;
+  
+  }
+  .page-2{
+    min-height:100vh;
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(191, 194, 189);
+    position: relative;
+    padding-left: 10px;
+    letter-spacing: 1px;
+   
+   justify-content: space-between;
+  
+   font-size: 30px; 
+   text-align: center;
+  }
+  * {box-sizing:border-box}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 500px;
+    max-height: 500px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width:auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left:0;
+    border-radius:3px 0 0 3px ;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
